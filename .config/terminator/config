@@ -1,0 +1,44 @@
+[global_config]
+  borderless = True
+  broadcast_default = off
+  dbus = False
+  focus = mouse
+  hide_on_lose_focus = True
+  inactive_color_offset = 0.76
+  tab_position = hidden
+  title_font = Meslo LG M for Powerline 13
+  title_inactive_bg_color = "#65737e"
+  title_inactive_fg_color = "#c0c5ce"
+  title_transmit_bg_color = "#2b303b"
+  title_transmit_fg_color = "#0076c9"
+  title_use_system_font = False
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    allow_bold = False
+    background_color = "#2b303b"
+    copy_on_selection = True
+    cursor_color = "#c0c5ce"
+    cursor_color_fg = False
+    font = Meslo LG M for Powerline Bold 10
+    foreground_color = "#c0c5ce"
+    palette = "#2b303b:#bf616a:#a3be8c:#ebcb8b:#257fad:#b48ead:#96b5b4:#c0c5ce:#65737e:#bf616a:#a3be8c:#ebcb8b:#257fad:#b48ead:#96b5b4:#eff1f5"
+    scrollback_infinite = True
+    use_system_font = False
+  [[Spotify]]
+    background_color = "#282828"
+    cursor_color = "#aaaaaa"
+    font = Meslo LG M DZ for Powerline Bold 10
+    icon_bell = False
+    show_titlebar = False
+    use_system_font = False
