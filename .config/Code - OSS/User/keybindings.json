@@ -1,0 +1,71 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "alt+w",
+        "command": "-toggleSearchWholeWord",
+        "when": "searchInputBoxFocus && searchViewletVisible"
+    },
+    {
+        "key": "alt+w",
+        "command": "-toggleFindWholeWord",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+w",
+        "command": "workbench.action.splitEditorUp"
+    },
+    {
+        "key": "alt+e",
+        "command": "workbench.action.splitEditorRight"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.closeWindow",
+        "when": "!editorIsOpen && !multipleEditorGroups"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.closeGroup",
+        "when": "activeEditorGroupEmpty && multipleEditorGroups"
+    },
+    {
+        "key": "alt+q",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "-workbench.view.explorer"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "workbench.files.action.showActiveFileInExplorer"
+    },
+    {
+        "key": "alt+\\",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+alt+t",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+shift+[BracketRight]",
+        "command": "-workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "alt+t",
+        "command": "workbench.action.terminal.focus"
+    }
+]

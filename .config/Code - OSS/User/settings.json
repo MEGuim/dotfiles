@@ -1,0 +1,26 @@
+{
+    "workbench.colorTheme": "Dracula Soft",
+    "window.zoomLevel": 0,
+    "breadcrumbs.enabled": false,
+    "files.autoSave": "afterDelay",
+    "antlr4.generation": {
+        "mode": "external",
+        "outputDir": "antlr4-runtime",
+        "language": "Java",
+        "listeners": false,
+        "visitors": true
+    },
+    "window.menuBarVisibility": "toggle",
+    "workbench.statusBar.visible": false,
+    "workbench.sideBar.location": "left",
+    "workbench.activityBar.visible": false,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderLineHighlight": "gutter",
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "scm.diffDecorationsGutterWidth": 2,
+    "editor.showFoldingControls": "always",
+    "editor.fontWeight": "bold",
+    "terminal.integrated.fontWeight": "bold"
+}
