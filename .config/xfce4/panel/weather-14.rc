@@ -1,0 +1,27 @@
+loc_name=Braga, Largo da Estação
+lat=41.548787
+lon=-8.434089
+msl=161
+timezone=Europe/Lisbon
+offset=+01:00
+cache_file_max_age=172800
+power_saving=true
+units_temperature=0
+units_pressure=0
+units_windspeed=0
+units_precipitation=0
+units_altitude=0
+model_apparent_temperature=0
+round=true
+single_row=true
+tooltip_style=1
+forecast_layout=1
+forecast_days=5
+scrollbox_animate=true
+theme_dir=/usr/share/xfce4/weather/icons/liquid
+show_scrollbox=true
+scrollbox_lines=1
+scrollbox_color=rgba(0,0,0,0)
+scrollbox_use_color=false
+label0=3
+
